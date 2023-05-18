@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
      Hello, samurai! Let's go!
-     <Star title={"Hello,world!"}/>
+     <Star title={"Hello,world!"} collapsed={false}/>
+     <Star title={"Hello!"} collapsed={true}/>
     </div> 
   );
 }
